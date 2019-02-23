@@ -37,6 +37,8 @@ handin-check:
 		test "$$r" = y; \
 	fi
 
+test:
+	@tests/bin/test-pzip.csh
 clean:
 	@rm -f $(TARGETS)
 

@@ -1,0 +1,3 @@
+./generator 100 1.in 
+cp 1.in test.in
+./pzip INPUT_DIR/test.in INPUT_DIR/test.in INPUT_DIR/test.in INPUT_DIR/test.in INPUT_DIR/test.in INPUT_DIR/test.in INPUT_DIR/test.in INPUT_DIR/test.in INPUT_DIR/test.in INPUT_DIR/test.in

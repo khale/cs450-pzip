@@ -45,12 +45,11 @@ def type_into_file(filename):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) != 4:
+    if len(sys.argv) != 3:
         sys.exit('usage: generate.py <file_size in MB> <output_location>\n example: python generator.py 100 1.in')
 
     output_size = int(sys.argv[1])
     output = sys.argv[2]
-    compressed = open(sys.argv[3], 'wb')
 
 filepath  = output
 filename  = open(filepath, "a")

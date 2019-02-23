@@ -41,4 +41,5 @@ test:
 	@tests/bin/test-pzip.csh
 clean:
 	@rm -f $(TARGETS)
+	@rm tests/tests-pzip/1.in tests/tests-pzip/test.in
 

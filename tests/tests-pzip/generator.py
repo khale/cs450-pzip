@@ -53,5 +53,6 @@ if __name__ == '__main__':
 
 filepath  = output
 filename  = open(filepath, "a")
-while os.path.getsize(filepath) < output_size*1024*1024:
-    type_into_file(filename)
+if os.path.exists(filepath):
+    while os.path.getsize(filepath) < output_size*1024*1024:
+        type_into_file(filename)

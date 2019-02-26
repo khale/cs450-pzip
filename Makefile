@@ -39,10 +39,10 @@ handin-check:
 
 test:
 	@tests/bin/test-pzip.csh
+
 clean:
 	@rm -f $(TARGETS)
 
-	@rm tests/tests-pzip/1.in
-	@rm tests/tests-pzip/2.in
-	@rm tests/tests-pzip/3.in 
-	@rm tests/tests-pzip/4.in
+clean-all:
+	@rm -f $(TARGETS)
+	@rm -f tests/tests-pzip/*.in

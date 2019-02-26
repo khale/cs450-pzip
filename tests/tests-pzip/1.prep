@@ -1,1 +1,1 @@
-cat INPUT_DIR/test.in > /dev/null
+cat INPUT_DIR/1.in > /dev/null

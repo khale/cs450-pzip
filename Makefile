@@ -41,8 +41,8 @@ test:
 	@tests/bin/test-pzip.csh
 clean:
 	@rm -f $(TARGETS)
-	@rm tests/tests-pzip/1.in tests/tests-pzip/test.in
-	@rm tests/tests-pzip/2.in tests/tests-pzip/test1.in
-	@rm tests/tests-pzip/3.in tests/tests-pzip/test2.in
-	@rm tests/tests-pzip/4.in tests/tests-pzip/test3.in
 
+	@rm tests/tests-pzip/1.in
+	@rm tests/tests-pzip/2.in
+	@rm tests/tests-pzip/3.in 
+	@rm tests/tests-pzip/4.in
